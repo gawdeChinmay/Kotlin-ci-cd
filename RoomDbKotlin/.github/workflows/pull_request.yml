@@ -1,4 +1,4 @@
-name : Run test
+name: Run test
 
 on:
   push:
@@ -27,3 +27,5 @@ jobs:
       - name: Run tests
         run: ./gradlew test
 
+      - name: Debug
+        run: echo "Workflow triggered!"
