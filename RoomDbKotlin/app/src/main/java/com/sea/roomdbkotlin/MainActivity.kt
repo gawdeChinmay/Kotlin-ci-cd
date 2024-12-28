@@ -82,6 +82,10 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         println("destroy called")
         Log.d("MainActivity", "onDestroy called")
+        Log.d("MainActivity", "onDestroy called")
+        Log.d("MainActivity", "onDestroy called")
+        Log.d("MainActivity", "onDestroy called")
+        Log.d("MainActivity", "onDestroy called")
         db.clearAllTables()
     }
 
