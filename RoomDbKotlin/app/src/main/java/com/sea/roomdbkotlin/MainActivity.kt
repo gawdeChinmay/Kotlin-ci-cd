@@ -19,7 +19,7 @@ import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
-//    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
     private lateinit var db: AppDataBase
 
     override fun onCreate(savedInstanceState: Bundle?) {
